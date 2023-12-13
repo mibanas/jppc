@@ -32,7 +32,7 @@ var messagePlayer = document.getElementById('messagePlayer')
 var messageComputer = document.getElementById('messageComputer')
 
 function playerChoic(choice) {
-    const index = Math.floor(Math.random() * listChoices.length)
+    const index = Math.floor(Math.random() * 3)
     var randamChoic = listChoices[index]
     
     if (choice === randamChoic) {
